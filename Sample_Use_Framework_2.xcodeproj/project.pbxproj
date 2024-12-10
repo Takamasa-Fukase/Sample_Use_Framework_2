@@ -16,6 +16,7 @@
 		BC552BED2D09035900E343FD /* Sample_Use_Framework_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC552BEC2D09035900E343FD /* Sample_Use_Framework_2Tests.swift */; };
 		BC552BF72D09035900E343FD /* Sample_Use_Framework_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC552BF62D09035900E343FD /* Sample_Use_Framework_2UITests.swift */; };
 		BC552BF92D09035900E343FD /* Sample_Use_Framework_2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC552BF82D09035900E343FD /* Sample_Use_Framework_2UITestsLaunchTests.swift */; };
+		BC552C062D0903BF00E343FD /* UIView+Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC552C052D0903BF00E343FD /* UIView+Constraint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		BC552BF22D09035900E343FD /* Sample_Use_Framework_2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sample_Use_Framework_2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC552BF62D09035900E343FD /* Sample_Use_Framework_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample_Use_Framework_2UITests.swift; sourceTree = "<group>"; };
 		BC552BF82D09035900E343FD /* Sample_Use_Framework_2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample_Use_Framework_2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BC552C052D0903BF00E343FD /* UIView+Constraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Constraint.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				BC552BD72D09035800E343FD /* SceneDelegate.swift */,
 				BC552BD92D09035800E343FD /* ViewController.swift */,
 				BC552BDB2D09035800E343FD /* Main.storyboard */,
+				BC552C052D0903BF00E343FD /* UIView+Constraint.swift */,
 				BC552BDE2D09035900E343FD /* Assets.xcassets */,
 				BC552BE02D09035900E343FD /* LaunchScreen.storyboard */,
 				BC552BE32D09035900E343FD /* Info.plist */,
@@ -261,6 +264,7 @@
 				BC552BDA2D09035800E343FD /* ViewController.swift in Sources */,
 				BC552BD62D09035800E343FD /* AppDelegate.swift in Sources */,
 				BC552BD82D09035800E343FD /* SceneDelegate.swift in Sources */,
+				BC552C062D0903BF00E343FD /* UIView+Constraint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
