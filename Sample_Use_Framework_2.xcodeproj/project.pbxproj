@@ -17,6 +17,8 @@
 		BC552BF72D09035900E343FD /* Sample_Use_Framework_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC552BF62D09035900E343FD /* Sample_Use_Framework_2UITests.swift */; };
 		BC552BF92D09035900E343FD /* Sample_Use_Framework_2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC552BF82D09035900E343FD /* Sample_Use_Framework_2UITestsLaunchTests.swift */; };
 		BC552C062D0903BF00E343FD /* UIView+Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC552C052D0903BF00E343FD /* UIView+Constraint.swift */; };
+		BCE325492D095ED5001B3955 /* Sample_Framework_A.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE325482D095ED5001B3955 /* Sample_Framework_A.xcframework */; };
+		BCE3254A2D095ED5001B3955 /* Sample_Framework_A.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BCE325482D095ED5001B3955 /* Sample_Framework_A.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		BCE3254B2D095ED5001B3955 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BCE3254A2D095ED5001B3955 /* Sample_Framework_A.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		BC552BD22D09035800E343FD /* Sample_Use_Framework_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample_Use_Framework_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC552BD52D09035800E343FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +67,7 @@
 		BC552BF62D09035900E343FD /* Sample_Use_Framework_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample_Use_Framework_2UITests.swift; sourceTree = "<group>"; };
 		BC552BF82D09035900E343FD /* Sample_Use_Framework_2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample_Use_Framework_2UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BC552C052D0903BF00E343FD /* UIView+Constraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Constraint.swift"; sourceTree = "<group>"; };
+		BCE325482D095ED5001B3955 /* Sample_Framework_A.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Sample_Framework_A.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCE325492D095ED5001B3955 /* Sample_Framework_A.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,6 +152,7 @@
 		BCE325432D09053B001B3955 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BCE325482D095ED5001B3955 /* Sample_Framework_A.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -148,6 +167,7 @@
 				BC552BCE2D09035800E343FD /* Sources */,
 				BC552BCF2D09035800E343FD /* Frameworks */,
 				BC552BD02D09035800E343FD /* Resources */,
+				BCE3254B2D095ED5001B3955 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
